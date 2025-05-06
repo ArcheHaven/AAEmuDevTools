@@ -1,0 +1,30 @@
+*.pak
+
+/user.cfg
+/system.cfg
+/editor.cfg
+/.bootstrap*.*
+
+# Ignore bin folders
+/bin/*
+/BinTemp/*
+
+# Ignore auto generated cmake and waf solutions
+/Solutions/*
+
+# Temp files
+/user/*
+/user(1)/*
+/user(2)/*
+*.log
+*.dmp
+/TestResults/*
+/LogBackups/*
+*.pyo
+*.pyc
+
+/.depproj/*
+/project.sln
+
+# Might contain a license key, so don't add it to a repo.
+/Code/Tools/waf-1.7.13/recode.lic

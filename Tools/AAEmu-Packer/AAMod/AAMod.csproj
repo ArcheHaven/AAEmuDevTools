@@ -1,0 +1,50 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <OutputType>WinExe</OutputType>
+    <LangVersion>default</LangVersion>
+    <GenerateAssemblyInfo>True</GenerateAssemblyInfo>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Resources\aamod_icon.ico</ApplicationIcon>
+    <AssemblyTitle>AAMod</AssemblyTitle>
+    <Product>AAMod</Product>
+    <Copyright>Copyright © 2019-2025, No rights reserved</Copyright>
+    <AssemblyVersion>1.0.8.2</AssemblyVersion>
+    <FileVersion>1.0.8.2</FileVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <Version>1.0.8.2</Version>
+    <Authors>ZeromusXYZ</Authors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="aamod_icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AAPacker" Version="1.1.2" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.7.0" />
+    <PackageReference Include="System.Data.DataSetExtensions" Version="4.6.0-preview3.19128.7" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Properties\Settings.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Target Name="CopyToAAPakEditor" AfterTargets="Publish">
+    <Exec WorkingDirectory="$(PublishDir)" Command="copy /Y AAMod.exe &quot;$(SolutionDir)AAPakEditor\Resources\AAMod.exe&quot;" />
+  </Target>
+</Project>

@@ -1,0 +1,22 @@
+{
+  "configVersion": 1,
+  "configName": "",
+  "lang": "en_us",
+  "launcherlang": "en_us",
+  "pathToGame": "",
+  "serverIPAddress": "127.0.0.1",
+  "saveLoginAndPassword": true,
+  "skipIntro": false,
+  "hideSplashLogo": false,
+  "lastLoginUser": "test",
+  "lastLoginPass": "test",
+  "loginType": "trino_1_2",
+  "updateLocale": true,
+  "allowGameUpdates": false,
+  "serverGameUpdateURL": "",
+  "serverWebsiteURL": "",
+  "serverNewsFeedURL": "",
+  "serverDiscordURL": "",
+  "serverDiscordName": "",
+  "userHistory": [ "test" ]
+}

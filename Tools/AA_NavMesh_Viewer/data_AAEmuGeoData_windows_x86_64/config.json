@@ -1,0 +1,14 @@
+{
+  "Sources": [
+    "ClientData",
+    "ClientData/game_pak"
+  ],
+  "CameraMode": 0,
+  "MainMap": "main_world",
+  "MapX": 15200,
+  "MapY": 13650,
+  "MapZ": 300,
+  "ChunkLoadRange": 2,
+  "CellLoadRange": 1,
+  "LoadAsyncCount": 5
+}

@@ -1,0 +1,14 @@
+[c]00 01 CARequestAuthPacket
+[c]00 02 CARequestAuthPlayWithPacket
+[c]00 03 CARequestAuthTencentPacket
+[c]00 04 CARequestAuthGameOnPacket
+[c]00 05 CARequestAuthTrionPacket
+[c]00 06 CARequestAuthMailRuPacket
+[c]00 07 CAChallengeResponsePacket
+[c]00 08 CAChallengeResponse2Packet
+[c]00 09 ClientToAuthPacket
+[c]00 0B ClientToAuth2Packet
+[c]00 0C CAListWorldPacket
+[c]00 0D CAEnterWorldPacket
+[c]00 0E CACancelEnterWorldPacket
+[c]00 0F CARequestReconnectPacket
