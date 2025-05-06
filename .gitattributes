@@ -3,3 +3,4 @@
 *.sqlite3 filter=lfs diff=lfs merge=lfs -text
 Tools filter=lfs diff=lfs merge=lfs -text
 Client-Mods filter=lfs diff=lfs merge=lfs -text
+Client-Mods/**/*.hmap.data filter=lfs diff=lfs merge=lfs -text
