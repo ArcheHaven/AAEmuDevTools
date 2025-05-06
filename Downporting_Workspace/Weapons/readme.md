@@ -1,0 +1,9 @@
+- buffs 
+- holdables
+- icons
+- item_assets
+- item_grade_buffs
+- item_weapons
+- items
+- unit_modifies(Depends on Item)
+- localized_texts

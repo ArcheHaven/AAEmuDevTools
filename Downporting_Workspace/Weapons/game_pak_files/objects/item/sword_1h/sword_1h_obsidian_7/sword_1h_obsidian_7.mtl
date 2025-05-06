@@ -1,0 +1,26 @@
+<Material MtlFlags="524544" SpecularLevel="1">
+ <SubMaterials>
+  <Material Name="sword_1h" MtlFlags="524416" SpecularLevel="16.299999" Shader="Illum" GenMask="8000000001000094" SurfaceType="mat_metal_chainlink" sRGB="2" Diffuse="0.35294119,0.35294119,0.35294119" Specular="5.6890211,5.6890211,5.6890211" Emissive="0,0,0" Shininess="17.799999" Opacity="1">
+   <RecursiveData>
+    <RecDiffuse Begin="0,0,0,1" End="0,0,0,1" Period="0"/>
+    <RecEmission Begin="0,0,0,1" End="0,0,0,1" Period="0"/>
+   </RecursiveData>
+   <Textures>
+    <Texture Map="Diffuse" File="game/objects/item/sword_1h/sword_1h_obsidian_7/sword_1h_obsidian_7_df.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="game/objects/item/sword_1h/sword_1h_obsidian_7/sword_1h_obsidian_7_sp.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="game/objects/item/sword_1h/sword_1h_obsidian_7/sword_1h_obsidian_7_ddn.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="game/textures/cubemaps/test_fleetfire.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularModifierInHDR="1.7" FresnelScale="22" AmbientMultiplier="0" FresnelBias="1" DiffuseModifierInHDR="0.69999999" ReflectAmount="5"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelScale="1" AmbientMultiplier="1" FresnelBias="0" ReflectAmount="0.25"/>
+</Material>

@@ -1,0 +1,26 @@
+<Material MtlFlags="524544" SpecularLevel="1">
+ <SubMaterials>
+  <Material Name="blade_2h_docheol_1" MtlFlags="524420" SpecularLevel="1" Shader="Metal" GenMask="10" SurfaceType="mat_metal_chainlink" sRGB="2" Diffuse="0.16470589,0.16470589,0.16470589" Specular="0.35294119,0.35294119,0.35294119" Emissive="0,0,0" Opacity="1" AlphaTest="0.426">
+   <RecursiveData>
+    <RecDiffuse Begin="0,0,0,1" End="0,0,0,1" Period="0"/>
+    <RecEmission Begin="0,0,0,1" End="0,0,0,1" Period="0"/>
+   </RecursiveData>
+   <Textures>
+    <Texture Map="Diffuse" File="game/objects/item/blade_1h/blade_1h_obsidian_7/blade_1h_obsidian_7_df.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="game/objects/item/blade_1h/blade_1h_obsidian_7/blade_1h_obsidian_7_sp.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="game/objects/item/blade_1h/blade_1h_obsidian_7/blade_1h_obsidian_7_ddn.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="game/textures/cubemaps/alientestcentral.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams FresnelScale="14.97" SpecularMultiplier="0" FresnelBias="0.77200001" ReflectionAmount="0.34999999" Glossiness="0.77200001"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelScale="1" AmbientMultiplier="1" FresnelBias="0" ReflectAmount="0.25"/>
+</Material>

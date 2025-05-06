@@ -1,0 +1,19 @@
+ac_ids
+
+1  = Daggers
+2 = Sword
+56 = Greatsword
+4 = Katana
+57 = Nodachi
+47 = Axe
+58 = Greataxe
+5 = Club 
+59 = Greatclub
+7 = Shortspear
+60 = Longspear
+6 = Scepter
+61 = staves
+8 = Bow
+11 = Lute
+12 = Flute
+10 = Shield

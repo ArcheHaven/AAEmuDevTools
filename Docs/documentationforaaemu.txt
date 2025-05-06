@@ -1,0 +1,11 @@
+buffs 
+
+id = unit_modifier owner_id to link to the buff 
+name = name of buff
+icon_id = icon to use for the buff
+
+
+unit_modifiers
+
+id = Unqiue identifier for unit Modifier
+owner_id = id for buff under buffs table

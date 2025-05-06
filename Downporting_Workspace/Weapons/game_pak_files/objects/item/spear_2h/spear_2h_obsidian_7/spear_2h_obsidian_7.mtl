@@ -1,0 +1,26 @@
+<Material MtlFlags="524544" SpecularLevel="1">
+ <SubMaterials>
+  <Material Name="spear_2h_ori_1" MtlFlags="524416" SpecularLevel="1" Shader="Metal" GenMask="2010" SurfaceType="mat_metal_chainlink" sRGB="2" Diffuse="0.18823531,0.18823531,0.18823531" Specular="0.12156864,0.12156864,0.12156864" Emissive="0,0,0" Shininess="20" Opacity="1">
+   <RecursiveData>
+    <RecDiffuse Begin="0,0,0,1" End="0,0,0,1" Period="0"/>
+    <RecEmission Begin="0,0,0,1" End="0,0,0,1" Period="0"/>
+   </RecursiveData>
+   <Textures>
+    <Texture Map="Diffuse" File="game/objects/item/spear_2h/spear_2h_obsidian_7/spear_2h_obsidian_7_df.dds" TexType="0">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="game/objects/item/spear_2h/spear_2h_obsidian_7/spear_2h_obsidian_7_sp.dds" TexType="0">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="game/objects/item/spear_2h/spear_2h_obsidian_7/spear_2h_obsidian_7_ddn.dds" TexType="0">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="game/textures/cubemaps/beach_blur2.dds" TexType="0">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams AnisotropicShape="0.25" FresnelScale="2" SpecularMultiplier="0.1" FresnelBias="0.44999999" ReflectionAmount="2"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelScale="1" AmbientMultiplier="1" FresnelBias="0" ReflectAmount="0.25"/>
+</Material>

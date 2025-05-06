@@ -1,0 +1,26 @@
+<Material MtlFlags="524544" SpecularLevel="1">
+ <SubMaterials>
+  <Material Name="staff_2h_obsidian_7" MtlFlags="524416" SpecularLevel="1.7" Shader="Illum" GenMask="2090" SurfaceType="mat_metal_chainlink" sRGB="2" Diffuse="0.23529413,0.23529413,0.23529413" Specular="1.3200002,0.66666675,0.18666668" Emissive="0,0,0" Shininess="11.9" Opacity="1" GlowAmount="0.60000002">
+   <RecursiveData>
+    <RecDiffuse Begin="0,0,0,1" End="0,0,0,1" Period="0"/>
+    <RecEmission Begin="0,0,0,1" End="0,0,0,1" Period="0"/>
+   </RecursiveData>
+   <Textures>
+    <Texture Map="Diffuse" File="game/objects/item/staff_2h/staff_2h_obsidian_7/staff_2h_obsidian_7_df.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="game/objects/item/staff_2h/staff_2h_obsidian_7/staff_2h_obsidian_7_sp.dds" TexType="0">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="game/objects/item/staff_2h/staff_2h_obsidian_7/staff_2h_obsidian_7_ddn.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="textures/cubemaps/sunol_cubemap.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams FresnelScale="2.99" AmbientMultiplier="1.3099999" FresnelBias="0.059" ReflectAmount="1.5"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelScale="1" AmbientMultiplier="1" FresnelBias="0" ReflectAmount="0.25"/>
+</Material>

@@ -1,0 +1,26 @@
+<Material MtlFlags="524544" SpecularLevel="1">
+ <SubMaterials>
+  <Material Name="axe_2h_ori_1" MtlFlags="524416" SpecularLevel="5.8000002" Shader="Illum" GenMask="1002094" SurfaceType="mat_metal_chainlink" sRGB="2" Diffuse="0.51372552,0.51372552,0.51372552" Specular="0.045490202,0.0682353,0.1137255" Emissive="0,0,0" Shininess="29.9" Opacity="1" GlowAmount="8.1999998">
+   <RecursiveData>
+    <RecDiffuse Begin="0,0,0,1" End="0,0,0,1" Period="0"/>
+    <RecEmission Begin="0,0,0,1" End="0,0,0,1" Period="0"/>
+   </RecursiveData>
+   <Textures>
+    <Texture Map="Diffuse" File="game/objects/item/axe_2h/axe_2h_obsidian_7/axe_2h_obsidian_7_df.dds" TexType="0">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="game/objects/item/axe_2h/axe_2h_obsidian_7/axe_2h_obsidian_7_sp.dds" TexType="0">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="game/objects/item/axe_2h/axe_2h_obsidian_7/axe_2h_obsidian_7_ddn.dds" TexType="0">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="game/textures/cubemaps/beach_blur2.dds" TexType="0">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams SpecularModifierInHDR="0.47" FresnelScale="10.67" AmbientMultiplier="4.3000002" FresnelBias="0.12899999" DiffuseModifierInHDR="0.18000001" ReflectAmount="1.42"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelScale="1" AmbientMultiplier="1" FresnelBias="0" ReflectAmount="0.25"/>
+</Material>

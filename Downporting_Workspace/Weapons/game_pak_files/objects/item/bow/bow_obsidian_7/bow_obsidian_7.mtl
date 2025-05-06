@@ -1,0 +1,26 @@
+<Material MtlFlags="524544" SpecularLevel="1">
+ <SubMaterials>
+  <Material Name="bow" MtlFlags="524416" SpecularLevel="1" Shader="Metal" GenMask="10" SurfaceType="mat_metal_chainlink" sRGB="2" Diffuse="0.14901961,0.14901961,0.14901961" Specular="0.11764707,0.11764707,0.11764707" Emissive="0,0,0" Shininess="10" Opacity="1">
+   <RecursiveData>
+    <RecDiffuse Begin="0,0,0,1" End="0,0,0,1" Period="0"/>
+    <RecEmission Begin="0,0,0,1" End="0,0,0,1" Period="0"/>
+   </RecursiveData>
+   <Textures>
+    <Texture Map="Diffuse" File="game/objects/item/bow/bow_obsidian_7/bow_obsidian_7_df.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Specular" File="game/objects/item/bow/bow_obsidian_7/bow_obsidian_7_sp.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Normalmap" File="game/objects/item/bow/bow_obsidian_7/bow_obsidian_7_ddn.dds">
+     <TexMod />
+    </Texture>
+    <Texture Map="Environment" File="game/textures/cubemaps/beach_blur2.dds">
+     <TexMod />
+    </Texture>
+   </Textures>
+   <PublicParams FresnelScale="5" SpecularMultiplier="0.1" FresnelBias="0.495" ReflectionAmount="1" Glossiness="0.75"/>
+  </Material>
+ </SubMaterials>
+ <PublicParams FresnelScale="1" AmbientMultiplier="1" FresnelBias="0" ReflectAmount="0.25"/>
+</Material>
